@@ -1,0 +1,13 @@
+button {
+    width: 67%;
+    font-size: 5vh;
+    background-color: gold;
+    display: block;
+    padding: 2vh;
+    margin: 0 auto
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: goldenrod
+}
