@@ -95,7 +95,11 @@ function mainScreen() {
     rank.innerText = "High score";
     rank.addEventListener("click", rankScreen);
 
-    document.body.append(tit, play, guide, rank)
+    let main = document.createElement("button");
+    main.innerText = "Back to main page";
+    main.setAttribute("onclick", "window.location.href='index.html'");
+
+    document.body.append(tit, play, guide, rank, main)
 }
 
 function update() {
