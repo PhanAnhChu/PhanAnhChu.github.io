@@ -63,7 +63,7 @@ function mainScreen() {
     clrscr();
 
     let tit = document.createElement("h1");
-    tit.innerText = "Bouncy Đaggy";
+    tit.innerText = "Flappy Block";
     tit.style = "font-size: 10vh; font-family: Comic Sans MS, Arial; text-align: center";
 
     let play = document.createElement("button");
